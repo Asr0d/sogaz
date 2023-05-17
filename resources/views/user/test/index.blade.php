@@ -3,12 +3,11 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Profile</h1>
+            <h1>Тестирование</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item">Users</li>
-                    <li class="breadcrumb-item active">Profile</li>
+                    <li class="breadcrumb-item">Test</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -21,12 +20,12 @@
 
                     <!-- Info Box -->
                     <div class="info_box">
-                        <div class="info-title"><span>Некоторые правила этой викторины</span></div>
+                        <div class="info-title"><span>Некоторые правила этой прохождения теста</span></div>
                         <div class="info-list">
                             <div class="info">1. На каждый вопрос у вас будет только  <span>15 секунд</span></div>
                             <div class="info">2. После выбора ответа его нельзя будет отменить.</div>
                             <div class="info">3. Вы не можете выбрать ни одну опцию, как только время истечет.</div>
-                            <div class="info">4. Вы не можете выйти из викторины во время игры.</div>
+                            <div class="info">4. Вы не можете выйти из тестирования</div>
                             <div class="info">5. Вы будете получать очки за правильные ответы.</div>
                         </div>
                         <div class="buttons">

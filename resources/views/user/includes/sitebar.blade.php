@@ -21,6 +21,11 @@
                         </a>
                     </li>
                 @endforeach
+                    <li>
+                        <a href="{{route('user.test.index')}}">
+                            <i class="bi bi-circle"></i><span>1 уровень</span>
+                        </a>
+                    </li>
             </ul>
         </li><!-- End Components Nav -->
 
@@ -36,6 +41,11 @@
                         </a>
                     </li>
                 @endforeach
+                    <li>
+                        <a href="{{route('user.test.index')}}">
+                            <i class="bi bi-circle"></i><span>2 уровень</span>
+                        </a>
+                    </li>
             </ul>
         </li><!-- End Forms Nav -->
 
@@ -51,34 +61,15 @@
                         </a>
                     </li>
                 @endforeach
+                    <li>
+                        <a href="{{route('user.test.index')}}">
+                            <i class="bi bi-circle"></i><span>3 уровень</span>
+                        </a>
+                    </li>
             </ul>
         </li><!-- End Tables Nav -->
 
-        <li class="nav-heading">Тестирование</li>
-        <li class="nav-item">
-            <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#" aria-expanded="false">
-                <i class="bi bi-gem"></i><span>Пройти тест</span><i class="bi bi-chevron-down ms-auto"></i>
-            </a>
-            <ul id="icons-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav" style="">
-                <li>
-                    <a href="{{route('user.test.index')}}">
-                        <i class="bi bi-circle"></i><span>1 уровень</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('user.test.index')}}">
-                        <i class="bi bi-circle"></i><span>2 уровень</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('user.test.index')}}">
-                        <i class="bi bi-circle"></i><span>3 уровень</span>
-                    </a>
-                </li>
-            </ul>
-        </li>
-
-        <li class="nav-heading">Pages</li>
+        <li class="nav-heading">Страницы</li>
 
         <li class="nav-item">
             <a class="nav-link collapsed" href="{{route('user.profile.index')}}">
